@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-------------->
+    <!-- FONTS -->
+    <!--Cormorant Garamond TITULOS PRINCIPALES-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+    <!------------------------------->
+    <!-- LATO TITULOS SECUNDARIOS --->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <!------------------------------->
+    <!--Playfair display TEXTO GENERAL -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap" rel="stylesheet">
+    <!----------------------------------->
+    <!--========== BOX ICONS ==========-->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ICONO TAB NAVEGADOR -->
+    <link rel="shortcut icon" href="/assets/icon/ICONOBIOTECH.jpg" />
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="/assets/scss/styles.css">
+
+        <title>BIOTECH</title>
+        
+    </head>
+
+    <body>
+        
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        </a>
+        
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="/Home.html" class="nav__logo">
+                    BIOTECH
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Nosotros</a></li>
+                        <li class="nav__item"><a href="#share" class="nav__link">FAQ´s</a></li>
+                        <li class="nav__item"><a href="#decoration" class="nav__link">Testimonios</a></li>
+                        <li class="nav__item"><a href="#accessory" class="nav__link">Productos</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu-alt-left'></i>
+                </div>
+
+            </nav>
+            <div class="nav__line" id="scrollIndicator"></div>
+        </header>
+
+        
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home pt-4 mt-4" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__img pt-2">
+                        <img src="/assets/img/NOSOTROS.jpg" alt="">
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">¿Quienes somos?.</h1>
+                        <p class="home__description pt-5">
+                            <b class="Color1">BIOTECH</b> es un invernadero de plantas carnivoras ubicado en la alcaldía
+                            <b class="Color1">
+                                <a href="https://www.google.com/maps/place/2a.+Cda.+Josefa+Ortiz+de+Dom%C3%ADnguez+15-2a,+Santa+Cruz+Acalpixca,+16500+Ciudad+de+M%C3%A9xico,+CDMX/@19.2545976,-99.0781317,17z/data=!3m1!4b1!4m5!3m4!1s0x85ce038c65708d1b:0x82806a3f41b1f1eb!8m2!3d19.2545976!4d-99.075943">
+                                    XOCHIMILCO
+                                </a>
+                            </b> con una vasta gama de especímenes fundado el año 2015.
+                            Dada nuestra ubicación y gama de especímenes las cultivamos de manera
+                            tradicional, asegurando un especímen de calidad al final de su cuidado en nuestras instalaciones.
+                        </p>
+                        <a href="#contact" class="button">Contactanos</a>
+                    </div>   
+                </div>
+            </section>
+
+            <!--========== SHARE ==========-->
+            <section class="share section bd-container" id="share">
+                <div class="share__container bd-grid">
+
+                    <div class="share__data">
+                        <section class="faq-section">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 ">
+                                        <div class="faq-title text-center pb-3">
+                                            <h2 class="home__title">Preguntas Frecuentes</h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 ">
+                                        <div class="faq" id="accordion">
+                                            <div class="card">
+                                                <div class="card-header" id="faqHeading-1">
+                                                    <div class="mb-0">
+                                                        <h5 class="faq-title" data-toggle="collapse"
+                                                            data-target="#faqCollapse-1"
+                                                            data-aria-expanded="true"
+                                                            data-aria-controls="faqCollapse-1">
+                                                            <span class="badge">1</span>¿Que tipos de plantas
+                                                            vendemos?
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                                <div id="faqCollapse-1" class="collapse"
+                                                    aria-labelledby="faqHeading-1" data-parent="#accordion">
+                                                    <div class="card-body">
+                                                        <p>
+                                                            -Cephalotus | -Darlingtonias | -Dionaea Típica.
+                                                        </p><br>
+                                                        <p>
+                                                            <b>Cultivares de dionaea:</b><br>
+                                                            Giant form | Sawthoot |Fondue | Vigorous | Royal red
+                                                            | Red dragón | B-52 | Tritón | Sawthoot | Dyngley |
+                                                            Wacky trap | Cup trap |Dentate |Tiger shark
+                                                        </p>
+                                                        <p>
+                                                            <b>Sarracenias:</b><br>
+                                                            Purpurea | Flava | Leucophylla
+                                                        </p>
+                                                        <p>
+                                                            <b>Droseras:</b><br>
+                                                            Capensis | Nidiformis |Binata | Spatulata
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header" id="faqHeading-2">
+                                                    <div class="mb-0">
+                                                        <h5 class="faq-title" data-toggle="collapse"
+                                                            data-target="#faqCollapse-2"
+                                                            data-aria-expanded="false"
+                                                            data-aria-controls="faqCollapse-2">
+                                                            <span class="badge">2</span>¿Cuales son los
+                                                            precios?.
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                                <div id="faqCollapse-2" class="collapse"
+                                                    aria-labelledby="faqHeading-2" data-parent="#accordion">
+                                                    <div class="card-body">
+                                                        <p>
+                                                            Los precios varian dependiendo del tipo de flor.
+                                                            Favor de contactarnos para obtener mayores detalles.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header" id="faqHeading-3">
+                                                    <div class="mb-0">
+                                                        <h5 class="faq-title" data-toggle="collapse"
+                                                            data-target="#faqCollapse-3"
+                                                            data-aria-expanded="false"
+                                                            data-aria-controls="faqCollapse-3">
+                                                            <span class="badge">3</span>¿Cuales son los tamaños
+                                                            que venden?.
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                                <div id="faqCollapse-3" class="collapse"
+                                                    aria-labelledby="faqHeading-3" data-parent="#accordion">
+                                                    <div class="card-body">
+                                                        <p>
+                                                            Chica(s) & Mediana(s).
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header" id="faqHeading-4">
+                                                    <div class="mb-0">
+                                                        <h5 class="faq-title" data-toggle="collapse"
+                                                            data-target="#faqCollapse-4"
+                                                            data-aria-expanded="false"
+                                                            data-aria-controls="faqCollapse-4">
+                                                            <span class="badge">4</span>¿Por cual paquetería
+                                                            realizan entregas?.
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                                <div id="faqCollapse-4" class="collapse"
+                                                    aria-labelledby="faqHeading-4" data-parent="#accordion">
+                                                    <div class="card-body">
+                                                        <p>
+                                                            <a href="https://www.fedex.com/es-mx/home.html">
+                                                                Fedex
+                                                            </a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header" id="faqHeading-5">
+                                                    <div class="mb-0">
+                                                        <h5 class="faq-title" data-toggle="collapse"
+                                                            data-target="#faqCollapse-5"
+                                                            data-aria-expanded="false"
+                                                            data-aria-controls="faqCollapse-5">
+                                                            <span class="badge">5</span>¿Cual es el coste del
+                                                            envio?.
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                                <div id="faqCollapse-5" class="collapse"
+                                                    aria-labelledby="faqHeading-5" data-parent="#accordion">
+                                                    <div class="card-body">
+                                                        <p>
+                                                            Es de $125,00.00 mxn
+                                                        </p><br>
+                                                        <small>Cientoveinticinco pesos mexicanos.</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card text-center">
+                                                <h5 class="faq-title" data-toggle="collapse"
+                                                    data-target="#faqCollapse-5" data-aria-expanded="false"
+                                                    data-aria-controls="faqCollapse-5">
+                                                    Si su duda no aparece en
+                                                    esta sección, favor de contactarnos por los
+                                                    distintos medios proporcionados.
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="share__img">
+                        <img src="/assets/img/Foto4.jpg" alt="">
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!--========== DECORATION ==========-->
+            <section class="decoration section bd-container" id="decoration">
+                <h2 class="home__title text-center pb-3 mb-3">Clientes Satisfechos</h2>
+                <div class="decoration__container bd-grid">
+                    <div class="decoration__data">
+                        <img  src="assets/img/Testimonio1.png" alt="" class="decoration__img">
+                        <h3 class="decoration__title">Excelentes Plantas</h3>
+                        <p>
+                            Llegan sanas y salvas gracias a que estan bien acomodadas.
+                        </p>
+                    </div>
+
+                    <div class="decoration__data">
+                        <img src="assets/img/Testimonio9.png" alt="" class="decoration__img">
+                        <h3 class="decoration__title">Excelente Servicio</h3>
+                        <p>
+                            Muy amables y oportunos. Recomendables.
+                        </p>
+                    </div>
+
+                    <div class="decoration__data">
+                        <img src="assets/img/Testimonio15.png" alt="" class="decoration__img">
+                        <h3 class="decoration__title">Magníficos Ejemplares.</h3>
+                        <p>
+                            Se encuentran en excelentes condiciones.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!--========== ACCESSORIES ==========-->
+            <section class="accessory section bd-container" id="accessory">
+                <h2 class="home__title text-center pb-3 mb-3">Productos</h2>
+
+                <div class="accessory__container bd-grid pt-3 pb-3 mb-3 mt-3">
+                    <div class="accessory__content"  data-fancybox="Plantas" data-caption="Planta 1" href="/assets/img/Foto1.jpg">
+                        <img src="assets/img/Foto1.jpg" alt="Producto 1" class=" img-fluid accessory__img" loading="lazy">
+                        <h3 class="accessory__title">Dionaea</h3>
+                    </div>
+
+                    <div class="accessory__content" data-fancybox="Plantas" data-caption="Planta 1" href="/assets/img/Foto5.jpg">
+                        <img src="assets/img/Foto5.jpg" alt="Producto 4" class=" img-fluid accessory__img" loading="lazy">
+                        <h3 class="accessory__title">Nepenthes</h3>
+                    </div>
+
+                    <div class="accessory__content" data-fancybox="Plantas" data-caption="Planta 1" href="/assets/img/Foto3.jpg">
+                        <img src="assets/img/Foto3.jpg" alt="Producto 3" class=" img-fluid accessory__img" loading="lazy">
+                        <h3 class="accessory__title">Drosera</h3>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--========== SEND GIFT ==========-->
+            <section class="send section" id="contact">
+                <div class="send__container bd-container bd-grid">
+                    <div class="send__content">
+                        <h2 class="section-title-center send__title">Contactenos</h2>
+                        <p class="send__description">Ingrese su correo y su duda acerca de nuestros productos/servicios y a la brevedad nos pondremos en contacto.</p>
+                        <form method="POST" class="formulario needs-validation" data-netlify-recaptcha="true" action="/Gracias.html" id="formulario" type="hidden" name="formulario" netlify novalidate>
+                            <div class="send__direction pt-2 mb-2">
+                                <input type="text" inputmode="text" placeholder="Nombre Completo" class="send__input">
+                                <div class="invalid-feedback">Requerimos su nombre completo</div>
+                            </div>
+                            <div class="send__direction pt-2 mb-2">
+                                <input type="email" inputmode="email" placeholder="Correo Electrónico" class="send__input">
+                                <div class="invalid-feedback">Requerimos su correo electrónico</div>
+                            </div>
+                                <select class="form-select form-control pt-2 mb-2" id="motivo" name="motivo" aria-label="motivo" required>
+                                    <option selected value="">Motivo de Mensaje</option>
+                                    <option value="Cotizacion">Asesoría</option>
+                                    <option value="Bosquejo">Venta Menudeo</option>
+                                    <option value="Reparacion">Venta Mayoreo</option>
+                                </select>
+                                <div class="invalid-feedback">Requerimos su motivo de mensaje</div>
+                            <textarea type="text" inputmode="text" class="form-control send__direction pt-2 mb-2" name="mensaje" id="mensaje" placeholder="Detalles del mensaje:" aria-label="mensaje" row required></textarea>
+                            <div class="invalid-feedback">Dejenos los detalles de su mensaje</div>
+                            <div class="send__direction pt-2 mb-2">
+                                <div class=" d-flex justify-content-center" data-netlify-recaptcha="true"></div>
+                                <small>
+                                    <b class="Color2">
+                                        Se le recuerda que si no marca este campo, el formulario se reiniciará y tendra que volver a ingresar la información de contacto.
+                                    </b> 
+                                </small>
+                            </div>
+                            <button type="submit" class="button btn">Enviar</button>
+                        </form>
+                    </div>
+
+                    <div class="send__img">
+                        <div id="mapa" class="pt-5"></div>
+                        <small class="text-white">
+                            <a class="dirmapa text-white" href="https://www.google.com/maps/place/2a.+Cda.+Josefa+Ortiz+de+Dom%C3%ADnguez+15-2a,+Santa+Cruz+Acalpixca,+16500+Ciudad+de+M%C3%A9xico,+CDMX/@19.2545976,-99.0781317,17z/data=!3m1!4b1!4m5!3m4!1s0x85ce038c65708d1b:0x82806a3f41b1f1eb!8m2!3d19.2545976!4d-99.075943">
+                                Segunda Cerrada Josefa Ortiz de Dominguez 15 Santa Cruz Acalpixca Xochimilco 16500
+                            </a>
+                        </small>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section">
+            <div class="footer__container bd-container bd-grid">
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        <a href="#home" data-target="#home" class="footer__logo">BIOTECH</a>
+                    </h3>
+                    <img src="assets/img/Foto17.jpg" alt="">
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Nuestros Aliados</h3>
+                    <ul>
+                        <li><a href="https://disenosysoluciones.netlify.app/" class="footer__link">Design & Solutions</a></li>
+                        <li><a href="https://deliciasdanss.netlify.app/" class="footer__link">Delicias Danns</a></li>
+                        <li><a href="https://morbid-art.netlify.app/" class="footer__link">Morbid Design</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Nuestros Servicios</h3>
+                    <ul>
+                        <li><a class="footer__link">Venta Mayoreo</a></li>
+                        <li><a class="footer__link">Venta Menudeo</a></li>
+                        <li><a class="footer__link">Asesorías</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Nuestra Empresa</h3>
+                    <ul>
+                        <li><a  href="#home" data-target="#home" class="footer__link">¿Quienes somos?</a></li>
+                        <li><a  href="#decoration" data-target="#decoration" class="footer__link">Testimonios</a></li>
+                        <li><a  href="#accessory" data-target="#accessory" class="footer__link">Productos</a></li>
+                        <li><a  href="https://www.google.com/maps/place/2a.+Cda.+Josefa+Ortiz+de+Dom%C3%ADnguez+15-2a,+Santa+Cruz+Acalpixca,+16500+Ciudad+de+M%C3%A9xico,+CDMX/@19.2545976,-99.0781317,17z/data=!3m1!4b1!4m5!3m4!1s0x85ce038c65708d1b:0x82806a3f41b1f1eb!8m2!3d19.2545976!4d-99.075943" class="footer__link">Nuestra Ubicación</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Contacto BIOTECH</h3>
+                    <a href="https://www.facebook.com/BioTecPlantasCarnivoras" class="footer__social"><i class='bx bxl-facebook-circle '></i></a>
+                    <a href="mailto:alessandro.71902@gmail.com" class="footer__social"><i class='bx bx-mail-send'></i></a>
+                    <a href="tel:+5513934466" class="footer__social"><i class='bx bx-phone-call' ></i></a>
+                    <h3 class="footer__title pt-3">Contacto Desarrollador</h3>
+                    <a href="https://github.com/RaulMunozSaucedoJr" class="footer__social"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/ra%C3%BAl-jasiel-uriel-mu%C3%B1oz-saucedo-989b419a/" class="footer__social"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="mailto:raulmunozsaucedo@hotmail.com" class="footer__social"><i class='bx bx-mail-send'></i></a>
+                </div>
+
+            </div>
+
+            <div class="footer__content">
+                <p class="footer__copy">&#169; 2021 Todos los derechos reservados</p>
+            </div>
+            
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/Validation.js"></script>
+            <!-- JS, Popper.js, and jQuery -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+        </script>
+        <!-- FANCYBOX -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+            integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
+            crossorigin="anonymous" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+            integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+            crossorigin="anonymous"></script>
+        <!-- LEAFTLET -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css"
+            integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA=="
+            crossorigin="anonymous" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js"
+            integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA=="
+            crossorigin="anonymous"></script>
+        <script>
+            $('[data-fancybox="Plantas"]').fancybox({
+                buttons: ["slideShow", "share", "zoom", "fullScreen", "close", "thumbnails", "arrows"],
+                protect: !0
+            });
+            </script>
+            <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                if (mapa) {
+                    var e = L.map("mapa").setView([19.2545976, -99.0781317], 11);
+                    var radius = e.accuracy;
+
+                    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+                        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                    }).addTo(e), e.locate({
+                        setView: 1,
+                        maxZoom: 9
+                    }), L.marker([19.2545976, -99.0781317]).addTo(e).bindPopup("Biotech").openPopup();
+                }
+            });
+        </script>
+    </body>
+</html>
