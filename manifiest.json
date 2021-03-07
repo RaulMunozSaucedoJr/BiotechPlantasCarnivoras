@@ -1,0 +1,15 @@
+{
+    "name": "Biotec",
+    "short_name": "BIOT",
+    "description": "Landing Page about Biotec",
+    "start_url": "/",
+    "background_color": "#FEFBFB",
+    "display": "standalone",
+    "theme_color": "#293343",
+    "icons": [{
+            "src": "./assets/icon/ICONOBIOTECH.jpg",
+            "sizes": "16x16",
+            "type": "image/png"
+        }
+    ]
+}
